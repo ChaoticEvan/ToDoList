@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/primaryBackground"
     tools:context=".FirstFragment">
 
     <TextView
@@ -12,9 +13,8 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
         android:text="@string/hello_first_fragment"
+        android:textColor="@color/white"
         android:textSize="34sp"
-        android:background="@color/purple_200"
-        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@id/button_first"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,6 +24,8 @@
         android:id="@+id/button_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/primaryForeground"
+        android:shadowColor="@color/black"
         android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
